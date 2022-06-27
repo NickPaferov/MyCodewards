@@ -1,0 +1,1 @@
+const maps = arr => arr.map(n => n * 2)
