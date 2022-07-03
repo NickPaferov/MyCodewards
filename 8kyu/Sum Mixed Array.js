@@ -1,0 +1,1 @@
+const sumMix = arr => arr.map(n => Number(n)).reduce((acc, curr) => acc + curr, 0)
