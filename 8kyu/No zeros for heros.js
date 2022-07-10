@@ -1,0 +1,1 @@
+const noBoringZeros = n => Number(String(n).replace(/0*$/, ""))
