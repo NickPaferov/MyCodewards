@@ -1,0 +1,1 @@
+const reverseNumber = n => Math.sign(n) * Math.abs(n).toString().split("").reverse().join("")
