@@ -1,0 +1,1 @@
+const sumOfMinimums = arr => arr.map(el => Math.min(...el)).reduce((a, b) => a + b)
