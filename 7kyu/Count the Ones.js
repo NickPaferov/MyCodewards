@@ -1,0 +1,1 @@
+const hammingWeight = x => x ? x % 2 + hammingWeight(x >> 1) : x
