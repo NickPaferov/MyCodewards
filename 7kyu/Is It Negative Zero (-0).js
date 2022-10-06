@@ -1,0 +1,1 @@
+const isNegativeZero = n => !n && 1 / n < 0
