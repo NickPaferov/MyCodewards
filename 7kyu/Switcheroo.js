@@ -1,0 +1,1 @@
+const switcheroo = x => x.split("").map(el => el === "a" ? "b" : el === "b" ? "a" : "c").join("")
