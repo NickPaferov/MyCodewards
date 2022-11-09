@@ -1,0 +1,1 @@
+const solution = string => string.split("").map(el => el === el.toUpperCase() ? ` ${el}` : el).join("")
