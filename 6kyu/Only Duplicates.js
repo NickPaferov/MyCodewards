@@ -1,0 +1,1 @@
+const onlyDuplicates = str => str.split("").filter((el) => str.indexOf(el) !== str.lastIndexOf(el)).join("")
