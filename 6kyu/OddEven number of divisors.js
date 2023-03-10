@@ -1,0 +1,1 @@
+const oddity = n => Math.sqrt(n) % 1 ? "even" : "odd"
