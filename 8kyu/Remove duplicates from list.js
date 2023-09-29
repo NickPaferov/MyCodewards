@@ -1,0 +1,1 @@
+const distinct = arr => Array.from(new Set(arr))
