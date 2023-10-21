@@ -1,0 +1,1 @@
+const solve = arr => arr.filter((el, index) => el > Math.max(...arr.slice(index + 1)))
