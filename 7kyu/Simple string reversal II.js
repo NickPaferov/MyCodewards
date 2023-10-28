@@ -1,0 +1,1 @@
+const solve = (str, a, b) => str.slice(0, a) + str.slice(a, b + 1).split("").reverse().join("") + str.slice(b + 1)
