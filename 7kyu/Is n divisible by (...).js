@@ -1,0 +1,1 @@
+const isDivisible = (...args) => args.slice(1).every(el => args[0] % el === 0)
