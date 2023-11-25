@@ -1,0 +1,1 @@
+const sumOfIntegersInString = str => str.split(/\D+/).reduce((acc, curr) => acc + +curr, 0)
