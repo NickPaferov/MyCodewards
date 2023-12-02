@@ -1,0 +1,1 @@
+const minimum = (a, x) => Math.abs(a - Math.round(a / x) * x)
