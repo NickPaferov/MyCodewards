@@ -1,0 +1,1 @@
+const group = arr => Array.from(new Set(arr)).map(el => arr.filter(n => n === el))
