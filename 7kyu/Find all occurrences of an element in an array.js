@@ -1,0 +1,1 @@
+const findAll = (arr, n) => arr.map((el, i) => el === n ? i : null).filter(Number.isInteger)
