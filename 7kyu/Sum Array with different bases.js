@@ -1,0 +1,1 @@
+const sumItUp = numbersWithBases => numbersWithBases.reduce((acc, [num, base]) => acc + parseInt(num, base), 0)
